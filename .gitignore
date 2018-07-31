@@ -1,0 +1,12 @@
+
+*.pyc
+
+*.zip
+
+.idea/verilog-testcase.iml
+
+.idea/modules.xml
+
+.idea/misc.xml
+
+.idea/workspace.xml

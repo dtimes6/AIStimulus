@@ -1,0 +1,207 @@
+$date
+	Tue Jul 17 22:58:50 2018
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module top $end
+$var wire 1 ! gnt3 $end
+$var wire 1 " gnt2 $end
+$var wire 1 # gnt1 $end
+$var wire 1 $ gnt0 $end
+$var reg 1 % clk $end
+$var reg 1 & req0 $end
+$var reg 1 ' req1 $end
+$var reg 1 ( req2 $end
+$var reg 1 ) req3 $end
+$var reg 1 * rst $end
+$scope module U $end
+$var wire 1 + beg $end
+$var wire 1 % clk $end
+$var wire 1 , comreq $end
+$var wire 2 - gnt [1:0] $end
+$var wire 1 $ gnt0 $end
+$var wire 1 # gnt1 $end
+$var wire 1 " gnt2 $end
+$var wire 1 ! gnt3 $end
+$var wire 1 . lcomreq $end
+$var wire 1 & req0 $end
+$var wire 1 ' req1 $end
+$var wire 1 ( req2 $end
+$var wire 1 ) req3 $end
+$var wire 1 * rst $end
+$var wire 2 / lgnt [1:0] $end
+$var reg 1 0 lasmask $end
+$var reg 1 1 ledge $end
+$var reg 1 2 lgnt0 $end
+$var reg 1 3 lgnt1 $end
+$var reg 1 4 lgnt2 $end
+$var reg 1 5 lgnt3 $end
+$var reg 1 6 lmask0 $end
+$var reg 1 7 lmask1 $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+x7
+x6
+x5
+x4
+x3
+x2
+x1
+x0
+bx /
+0.
+bx -
+0,
+0+
+1*
+0)
+0(
+0'
+0&
+0%
+x$
+x#
+x"
+x!
+$end
+#1
+b0 -
+b0 /
+0!
+05
+0"
+04
+0#
+03
+0$
+02
+01
+00
+06
+07
+1%
+#2
+0%
+#3
+1%
+#4
+0%
+#5
+1%
+#6
+0%
+#7
+1%
+#8
+0%
+#9
+1%
+#10
+0%
+0*
+#11
+1+
+1&
+1%
+#12
+0%
+#13
+0+
+0&
+1$
+12
+10
+1%
+#14
+0%
+#15
+1+
+00
+0$
+02
+1'
+1&
+1%
+#16
+0%
+#17
+b1 -
+b1 /
+0'
+1(
+1#
+13
+10
+1%
+#18
+0%
+#19
+b10 -
+b10 /
+16
+11
+00
+1"
+14
+0#
+03
+0(
+1)
+1%
+#20
+0%
+#21
+b11 -
+b11 /
+0)
+1!
+15
+0"
+04
+1%
+#22
+0%
+#23
+0+
+b0 -
+b0 /
+0!
+05
+1$
+12
+0&
+1%
+#24
+0%
+#25
+0$
+02
+01
+1%
+#26
+0%
+#27
+1%
+#28
+0%
+#29
+1%
+#30
+0%
+#31
+1%
+#32
+0%
+#33
+1%
+#34
+0%
+#35
+1%
