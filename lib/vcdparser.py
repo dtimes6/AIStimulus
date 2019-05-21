@@ -30,6 +30,8 @@ class VcdParser:
           sym = '.'.join(scope) + '.' + name;
           self.symbols[sym] = { 'type':type, 'ref':ref, 'length':length };
           self.refs[ref] = { 'type':type, 'length':length };
+        if (line[:9] == "$dumpvars"):
+          self.dataSectionLineStart = self.linenumber;
       elif (line[0] == "#"):
         self.dataSectionLineStart = self.linenumber - 1;
         return;
@@ -64,9 +66,9 @@ class VcdParser:
         ref   = line[1:-1];
         self.values[ref] = value;
     if (self.time == None):
-      return True;
-    else:
       return False;
+    else:
+      return True;
   def parse1ClkCycle(self, clk, rsts = None):
     clkref  = self.symbols[clk['symbol']]['ref'];
     clkedge = '1' if clk['edge'] == "posedge" else '0';
